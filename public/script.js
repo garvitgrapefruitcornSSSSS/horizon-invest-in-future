@@ -22,10 +22,10 @@ function generateFinancePlan() {
     }
 
     // Store financePlan in localStorage to pass it to the financePlan.html page
-    localStorage.setItem("financePlan", JSON.stringify(financePlan));
+    localStorage.setItem("finance-Plan", JSON.stringify(finance-Plan));
 
     // Redirect to the finance plan page
-    window.location.href = "financePlan.html";
+    window.location.href = "finance-Plan.html";
 }
 
 // Display finance plan on the financePlan.html page
